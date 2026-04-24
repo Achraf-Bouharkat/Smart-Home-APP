@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Modern Palette -->
+    <color name="primary">#6366F1</color>
+    <color name="primary_variant">#4F46E5</color>
+    <color name="secondary">#EC4899</color>
+    <color name="background">#F8FAFC</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="error">#EF4444</color>
+
+    <color name="text_primary">#1E293B</color>
+    <color name="text_secondary">#64748B</color>
+
+    <color name="card_stroke">#E2E8F0</color>
+
+    <!-- Glow Colors -->
+    <color name="primary_glow">#806366F1</color>
+    <color name="primary_glow_soft">#306366F1</color>
+</resources>
