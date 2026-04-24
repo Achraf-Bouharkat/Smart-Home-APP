@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-debug-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-debug-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-debug-35:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-main-37:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-debug-35:/layout_activity_register.xml.flat",
+        "source": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-main-37:/layout/activity_register.xml"
+    },
+    {
+        "merged": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-debug-35:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-main-37:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-debug-35:/layout_activity_home.xml.flat",
+        "source": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-main-37:/layout/activity_home.xml"
+    },
+    {
+        "merged": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-debug-35:/layout_activity_settings.xml.flat",
+        "source": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-main-37:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-debug-35:/layout_activity_add_device.xml.flat",
+        "source": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-main-37:/layout/activity_add_device.xml"
+    },
+    {
+        "merged": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-debug-35:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-main-37:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-debug-35:/menu_home_menu.xml.flat",
+        "source": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-main-37:/menu/home_menu.xml"
+    },
+    {
+        "merged": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-debug-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-debug-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-debug-35:/menu_drawer_menu.xml.flat",
+        "source": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-main-37:/menu/drawer_menu.xml"
+    },
+    {
+        "merged": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-debug-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-debug-35:/drawable_default_profile.png.flat",
+        "source": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-main-37:/drawable/default_profile.png"
+    },
+    {
+        "merged": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-debug-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-main-37:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-debug-35:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-main-37:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-35:/layout_activity_home.xml.flat",
+        "source": "com.example.myapplication.app-main-37:/layout/activity_home.xml"
+    },
+    {
+        "merged": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-debug-35:/layout_nav_header.xml.flat",
+        "source": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-main-37:/layout/nav_header.xml"
+    },
+    {
+        "merged": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-debug-35:/drawable_button_glow.xml.flat",
+        "source": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-main-37:/drawable/button_glow.xml"
+    },
+    {
+        "merged": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-debug-35:/xml_backup_rules.xml.flat",
+        "source": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-main-37:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-debug-35:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-main-37:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-debug-35:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-main-37:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-debug-35:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-main-37:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-debug-35:/layout_activity_main.xml.flat",
+        "source": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-debug-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-debug-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/achraf/.gradle/daemon/9.3.1/com.example.myapplication.app-main-37:/mipmap-xxxhdpi/ic_launcher.webp"
+    }
+]
