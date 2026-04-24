@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_theme"
+            android:icon="@android:drawable/ic_menu_day"
+            android:title="@string/theme" />
+        <item
+            android:id="@+id/nav_wallpaper"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/wallpapers" />
+        <item
+            android:id="@+id/nav_language"
+            android:icon="@android:drawable/ic_menu_sort_alphabetically"
+            android:title="@string/language" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="@string/logout" />
+    </group>
+</menu>
