@@ -1,0 +1,242 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="24"
+8-->INJECTED
+9        android:targetSdkVersion="36" />
+9-->INJECTED
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:6:5-79
+12-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:7:5-76
+13-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+14-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:8:5-76
+14-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:8:22-73
+15    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+15-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:9:5-79
+15-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:10:5-79
+16-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:11:5-81
+17-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+18-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:22:5-65
+18-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:22:22-62
+19    <uses-feature
+19-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:25:5-27:36
+20        android:name="android.hardware.camera"
+20-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:26:9-47
+21        android:required="false" />
+21-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:27:9-33
+22    <uses-feature
+22-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:28:5-30:36
+23        android:name="android.hardware.camera.front"
+23-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:29:9-53
+24        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+24-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:30:9-33
+25    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+26    <uses-feature
+26-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:33:5-35:36
+27        android:name="android.hardware.camera.autofocus"
+27-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:34:9-57
+28        android:required="false" />
+28-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:35:9-33
+29    <uses-feature
+29-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:36:5-38:36
+30        android:name="android.hardware.camera.flash"
+30-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:37:9-53
+31        android:required="false" />
+31-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:38:9-33
+32    <uses-feature
+32-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:39:5-41:36
+33        android:name="android.hardware.screen.landscape"
+33-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:40:9-57
+34        android:required="false" />
+34-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:41:9-33
+35    <uses-feature
+35-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:42:5-44:36
+36        android:name="android.hardware.wifi"
+36-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:43:9-45
+37        android:required="false" />
+37-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:44:9-33
+38
+39    <permission
+39-->[androidx.core:core:1.13.0] /home/achraf/.gradle/caches/9.3.1/transforms/b5320b0ff30981cfbd90db777beae6e6/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+40        android:name="com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+40-->[androidx.core:core:1.13.0] /home/achraf/.gradle/caches/9.3.1/transforms/b5320b0ff30981cfbd90db777beae6e6/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+41        android:protectionLevel="signature" />
+41-->[androidx.core:core:1.13.0] /home/achraf/.gradle/caches/9.3.1/transforms/b5320b0ff30981cfbd90db777beae6e6/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+42
+43    <uses-permission android:name="com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+43-->[androidx.core:core:1.13.0] /home/achraf/.gradle/caches/9.3.1/transforms/b5320b0ff30981cfbd90db777beae6e6/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+43-->[androidx.core:core:1.13.0] /home/achraf/.gradle/caches/9.3.1/transforms/b5320b0ff30981cfbd90db777beae6e6/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+44
+45    <application
+45-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:13:5-47:19
+46        android:allowBackup="true"
+46-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:14:9-35
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.13.0] /home/achraf/.gradle/caches/9.3.1/transforms/b5320b0ff30981cfbd90db777beae6e6/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+48        android:dataExtractionRules="@xml/data_extraction_rules"
+48-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:15:9-65
+49        android:debuggable="true"
+50        android:extractNativeLibs="false"
+50-->INJECTED
+51        android:fullBackupContent="@xml/backup_rules"
+51-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:16:9-54
+52        android:icon="@mipmap/ic_launcher"
+52-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:17:9-43
+53        android:label="@string/app_name"
+53-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:18:9-41
+54        android:roundIcon="@mipmap/ic_launcher_round"
+54-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:19:9-54
+55        android:supportsRtl="true"
+55-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:20:9-35
+56        android:testOnly="true"
+57        android:theme="@style/Theme.MyApplication"
+57-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:21:9-51
+58        android:usesCleartextTraffic="true" >
+58-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:22:9-44
+59        <activity
+59-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:23:9-31:20
+60            android:name="com.example.myapplication.MainActivity"
+60-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:24:13-41
+61            android:exported="true" >
+61-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:25:13-36
+62            <intent-filter>
+62-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:26:13-30:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:27:17-69
+63-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:27:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:29:17-77
+65-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:29:27-74
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:32:9-34:40
+69            android:name="com.example.myapplication.HomeActivity"
+69-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:33:13-41
+70            android:exported="false" />
+70-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:34:13-37
+71        <activity
+71-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:35:9-38:50
+72            android:name="com.example.myapplication.AddDeviceActivity"
+72-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:36:13-46
+73            android:exported="false"
+73-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:37:13-37
+74            android:label="@string/add_device" />
+74-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:38:13-47
+75        <activity
+75-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:39:9-42:54
+76            android:name="com.example.myapplication.RegisterActivity"
+76-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:40:13-45
+77            android:exported="false"
+77-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:41:13-37
+78            android:label="@string/create_account" />
+78-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:42:13-51
+79        <activity
+79-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:43:9-46:48
+80            android:name="com.example.myapplication.SettingsActivity"
+80-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:44:13-45
+81            android:exported="false"
+81-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:45:13-37
+82            android:label="@string/settings" />
+82-->/home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/AndroidManifest.xml:46:13-45
+83        <activity
+83-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:47:9-53:63
+84            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+84-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:48:13-74
+85            android:clearTaskOnLaunch="true"
+85-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:49:13-45
+86            android:screenOrientation="sensorLandscape"
+86-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:50:13-56
+87            android:stateNotNeeded="true"
+87-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:51:13-42
+88            android:theme="@style/zxing_CaptureTheme"
+88-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:52:13-54
+89            android:windowSoftInputMode="stateAlwaysHidden" />
+89-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/fe66cb7c9d49536681d4f5c2e6b67204/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:53:13-60
+90
+91        <provider
+91-->[androidx.emoji2:emoji2:1.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/c3281130632a8f6556cfe07ceed7fa39/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+92            android:name="androidx.startup.InitializationProvider"
+92-->[androidx.emoji2:emoji2:1.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/c3281130632a8f6556cfe07ceed7fa39/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+93            android:authorities="com.example.myapplication.androidx-startup"
+93-->[androidx.emoji2:emoji2:1.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/c3281130632a8f6556cfe07ceed7fa39/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+94            android:exported="false" >
+94-->[androidx.emoji2:emoji2:1.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/c3281130632a8f6556cfe07ceed7fa39/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+95            <meta-data
+95-->[androidx.emoji2:emoji2:1.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/c3281130632a8f6556cfe07ceed7fa39/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+96                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+96-->[androidx.emoji2:emoji2:1.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/c3281130632a8f6556cfe07ceed7fa39/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+97                android:value="androidx.startup" />
+97-->[androidx.emoji2:emoji2:1.3.0] /home/achraf/.gradle/caches/9.3.1/transforms/c3281130632a8f6556cfe07ceed7fa39/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+98            <meta-data
+98-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/achraf/.gradle/caches/9.3.1/transforms/6a5c0d615c22ff2f7749619a416e6b62/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+99                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+99-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/achraf/.gradle/caches/9.3.1/transforms/6a5c0d615c22ff2f7749619a416e6b62/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+100                android:value="androidx.startup" />
+100-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/achraf/.gradle/caches/9.3.1/transforms/6a5c0d615c22ff2f7749619a416e6b62/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+101            <meta-data
+101-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/achraf/.gradle/caches/9.3.1/transforms/c14ed7a58e3d6188c0d052036bfadd38/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+102                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/achraf/.gradle/caches/9.3.1/transforms/c14ed7a58e3d6188c0d052036bfadd38/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+103                android:value="androidx.startup" />
+103-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/achraf/.gradle/caches/9.3.1/transforms/c14ed7a58e3d6188c0d052036bfadd38/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+104        </provider>
+105
+106        <receiver
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/achraf/.gradle/caches/9.3.1/transforms/c14ed7a58e3d6188c0d052036bfadd38/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+107            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+107-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/achraf/.gradle/caches/9.3.1/transforms/c14ed7a58e3d6188c0d052036bfadd38/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+108            android:directBootAware="false"
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/achraf/.gradle/caches/9.3.1/transforms/c14ed7a58e3d6188c0d052036bfadd38/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+109            android:enabled="true"
+109-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/achraf/.gradle/caches/9.3.1/transforms/c14ed7a58e3d6188c0d052036bfadd38/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+110            android:exported="true"
+110-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/achraf/.gradle/caches/9.3.1/transforms/c14ed7a58e3d6188c0d052036bfadd38/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+111            android:permission="android.permission.DUMP" >
+111-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/achraf/.gradle/caches/9.3.1/transforms/c14ed7a58e3d6188c0d052036bfadd38/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+112            <intent-filter>
+112-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/achraf/.gradle/caches/9.3.1/transforms/c14ed7a58e3d6188c0d052036bfadd38/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+113                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+113-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/achraf/.gradle/caches/9.3.1/transforms/c14ed7a58e3d6188c0d052036bfadd38/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+113-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/achraf/.gradle/caches/9.3.1/transforms/c14ed7a58e3d6188c0d052036bfadd38/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+114            </intent-filter>
+115            <intent-filter>
+115-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/achraf/.gradle/caches/9.3.1/transforms/c14ed7a58e3d6188c0d052036bfadd38/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+116                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+116-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/achraf/.gradle/caches/9.3.1/transforms/c14ed7a58e3d6188c0d052036bfadd38/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+116-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/achraf/.gradle/caches/9.3.1/transforms/c14ed7a58e3d6188c0d052036bfadd38/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+117            </intent-filter>
+118            <intent-filter>
+118-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/achraf/.gradle/caches/9.3.1/transforms/c14ed7a58e3d6188c0d052036bfadd38/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+119                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+119-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/achraf/.gradle/caches/9.3.1/transforms/c14ed7a58e3d6188c0d052036bfadd38/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+119-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/achraf/.gradle/caches/9.3.1/transforms/c14ed7a58e3d6188c0d052036bfadd38/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+120            </intent-filter>
+121            <intent-filter>
+121-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/achraf/.gradle/caches/9.3.1/transforms/c14ed7a58e3d6188c0d052036bfadd38/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+122                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+122-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/achraf/.gradle/caches/9.3.1/transforms/c14ed7a58e3d6188c0d052036bfadd38/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+122-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/achraf/.gradle/caches/9.3.1/transforms/c14ed7a58e3d6188c0d052036bfadd38/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+123            </intent-filter>
+124        </receiver>
+125    </application>
+126
+127</manifest>
