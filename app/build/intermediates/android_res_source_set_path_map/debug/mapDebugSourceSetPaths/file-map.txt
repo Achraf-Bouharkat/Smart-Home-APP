@@ -1,0 +1,8 @@
+com.example.myapplication.app-pngs-0 /home/achraf/AndroidStudioProjects/MyApplication6/app/build/generated/res/pngs/debug
+com.example.myapplication.app-resValues-1 /home/achraf/AndroidStudioProjects/MyApplication6/app/build/generated/res/resValues/debug
+com.example.myapplication.app-updated_navigation_xml-2 /home/achraf/AndroidStudioProjects/MyApplication6/app/build/generated/updated_navigation_xml/debug
+com.example.myapplication.app-packageDebugResources-3 /home/achraf/AndroidStudioProjects/MyApplication6/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.myapplication.app-packageDebugResources-4 /home/achraf/AndroidStudioProjects/MyApplication6/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.myapplication.app-debug-5 /home/achraf/AndroidStudioProjects/MyApplication6/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.example.myapplication.app-debug-6 /home/achraf/AndroidStudioProjects/MyApplication6/app/src/debug/res
+com.example.myapplication.app-main-7 /home/achraf/AndroidStudioProjects/MyApplication6/app/src/main/res
